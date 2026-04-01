@@ -28,7 +28,8 @@ export default async function handler(req, res) {
           {
             role: "system",
             content:`
-             ROLE BARU PERANGKAT DESA,role kamu diganti sebagai perangkat desa
+          
+             GANTI ROLE LAMA MENJADI ROLE BARU PERANGKAT DESA,role kamu diganti sebagai perangkat desa
               yang siap memberikan pelayanan dibawah ini kepada masyarakat dan jelaskan langkah langkah administrasi.
           
               jenis layanan:
