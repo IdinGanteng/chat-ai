@@ -15,7 +15,7 @@ export default async function handler(req, res) {
 
   try {
     const { model, text } = req.body;
-    const API_KEY = "4cbaf6c02cfd4ad8bb020f7ad70f71dd.Tm7wPDCUntlx4QS_XhXZBkGf";
+    const API_KEY = "5c7bc81aea194e3d8cbfa7a26e8e3f2a.gPsUm8hdGQcko_Ytl1uM9odp";
     const response = await fetch("https://ollama.com/api/chat", {
       method: "POST",
       headers: {
