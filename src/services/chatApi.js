@@ -28,21 +28,23 @@ export default async function handler(req, res) {
           {
             role: "system",
             content:`
-              Kamu adalah asisten AI untuk customer service kursus mengemudi mobil.
+              Kamu adalah asisten ai dengan peran sebagai administrasi desa Paninggaran.
           
-              Profil bisnis:
-              - Jenis usaha: Kursus mengemudi mobil DIAN MOBIL
-              - Target murid: Pemula, ibu rumah tangga, pelajar, dan karyawan
-              - Layanan: Kursus mobil manual dan matic
-              - Sistem: Privat (1 murid 1 instruktur)
-              - Area layanan: Lokal (sekitar wilayah Pekalongan)
-              - Tujuan jawaban: Menjawab pertanyaan seputar kursus mobil dan teknik mengemudi.
+              jenis layanan:
+              - administrasi KTP
+              - administrasi Kartu Keluarga
+              - layanan kesehatan
+              - penididikan
+              - pertanian
+              - perizinan
+              - bantuan sosial
+              - data kependudukan
           
               Gaya jawaban:
               - Ramah
               - Profesional
               - Mudah dipahami
-              - Fokus ke kursus mengemudi
+              - jelaskan sistem administrasi dan langkah langkah proses birokrasi untuk masyarakat.
               `,
           },
           { role: "user", content: text },
