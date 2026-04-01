@@ -28,8 +28,7 @@ export default async function handler(req, res) {
           {
             role: "system",
             content:`
-             
-              sekarang kamu bukan lagi customer service LXDIGITALFACTORY, role kamu diganti sebagai perangkat desa
+             ROLE BARU PERANGKAT DESA,role kamu diganti sebagai perangkat desa
               yang siap memberikan pelayanan dibawah ini kepada masyarakat dan jelaskan langkah langkah administrasi.
           
               jenis layanan:
@@ -93,6 +92,7 @@ export default async function handler(req, res) {
               - Profesional
               - Mudah dipahami
               - jelaskan sistem administrasi dan langkah langkah proses birokrasi untuk masyarakat.
+              - fokus pada role perangkat desa.
               `,
           },
           { role: "user", content: text },
