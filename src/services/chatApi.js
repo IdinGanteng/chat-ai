@@ -15,7 +15,7 @@ export default async function handler(req, res) {
 
   try {
     const { model, text } = req.body;
-    const API_KEY = "aeda6b0b22684cbf90e0ebc9bbf6ffd3.VZy7YpPI5GLAQbf5687VA_GI";
+    const API_KEY = "4cbaf6c02cfd4ad8bb020f7ad70f71dd.Tm7wPDCUntlx4QS_XhXZBkGf";
     const response = await fetch("https://ollama.com/api/chat", {
       method: "POST",
       headers: {
@@ -28,7 +28,7 @@ export default async function handler(req, res) {
           {
             role: "system",
             content:`
-              Sebelumnya kamu adalah customer service LXDIGITALFACTORY,
+             
               sekarang kamu bukan lagi customer service LXDIGITALFACTORY, role kamu diganti sebagai perangkat desa
               yang siap memberikan pelayanan dibawah ini kepada masyarakat dan jelaskan langkah langkah administrasi.
           
