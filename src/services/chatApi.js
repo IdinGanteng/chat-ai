@@ -33,7 +33,7 @@ export default async function handler(req, res) {
             
             Sekarang kamu adalah PERANGKAT DESA yang bertugas melayani masyarakat.
             
-            Tugas kamu:
+            Tugas kamu sebagai perangkat desa:
               - administrasi KTP antara lain :
                   a. Perekaman KTP-el Baru: Bagi warga yang berusia 17 tahun ke atas atau sudah menikah.
                   b. Penerbitan Ulang/Penggantian KTP-el: Karena hilang, rusak, atau adanya perubahan data (alamat, status perkawinan, pekerjaan, agama).
